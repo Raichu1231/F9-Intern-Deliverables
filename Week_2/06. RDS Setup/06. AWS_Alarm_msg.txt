@@ -1,0 +1,38 @@
+You are receiving this email because your Amazon CloudWatch Alarm "kartikAdmin-webServer-CPUUtil-0.5" in the US East (N. Virginia) region has entered the OK state, because "Threshold Crossed: 1 out of the last 1 datapoints [0.0010770859053764999 (04/06/26 09:45:00)] was not greater than or equal to the threshold (0.3) (minimum 1 datapoint for ALARM -> OK transition)." at "Thursday 04 June, 2026 09:48:53 UTC".
+
+View this alarm in the AWS Management Console:
+https://us-east-1.console.aws.amazon.com/cloudwatch/deeplink.js?region=us-east-1#alarmsV2:alarm/kartikAdmin-webServer-CPUUtil-0.5
+
+Alarm Details:
+- Name:                       kartikAdmin-webServer-CPUUtil-0.5
+- Description:               
+- State Change:               INSUFFICIENT_DATA -> OK
+- Reason for State Change:    Threshold Crossed: 1 out of the last 1 datapoints [0.0010770859053764999 (04/06/26 09:45:00)] was not greater than or equal to the threshold (0.3) (minimum 1 datapoint for ALARM -> OK transition).
+- Timestamp:                  Thursday 04 June, 2026 09:48:53 UTC
+- AWS Account:                094337892911
+- Alarm Arn:                  arn:aws:cloudwatch:us-east-1:094337892911:alarm:kartikAdmin-webServer-CPUUtil-0.5
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 0.3 for at least 1 of the last 1 period(s) of 60 seconds.
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          CPUUtilization
+- Dimensions:                          [InstanceId = i-0bbb7c2250451fb6b]
+- Period:                              60 seconds
+- Statistic:                           Average
+- Unit:                                not specified
+- TreatMissingData:                    missing
+
+
+State Change Actions:
+- OK: [arn:aws:sns:us-east-1:094337892911:kartikAdmin-alertsTopic]
+- ALARM:
+- INSUFFICIENT_DATA:
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-east-1.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-east-1:094337892911:kartikAdmin-alertsTopic:ee38c32f-a187-4b7b-8491-7dd7e5382fc5&Endpoint=kartikrajesh@outlook.com
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
