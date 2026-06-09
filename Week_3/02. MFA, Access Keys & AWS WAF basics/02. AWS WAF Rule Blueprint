@@ -1,0 +1,29 @@
+{
+  "Name": "Block-SQL-Injection-Rule",
+  "Priority": 1,
+  "Statement": {
+    "SqliMatchStatement": {
+      "FieldToMatch": {
+        "AllQueryArguments": {}
+      },
+      "TextTransformations": [
+        {
+          "Priority": 1,
+          "Type": "URL_DECODE"
+        },
+        {
+          "Priority": 2,
+          "Type": "LOWERCASE"
+        }
+      ]
+    }
+  },
+  "Action": {
+    "Block": {}
+  },
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "WAFBlockSQLiMetric"
+  }
+}
