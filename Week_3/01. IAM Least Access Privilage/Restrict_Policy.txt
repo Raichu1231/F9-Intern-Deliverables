@@ -1,0 +1,43 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [
+				"ec2:DescribeInstances",
+				"ec2:DescribeSecurityGroups",
+				"ec2:DescribeVpcs",
+				"ec2:DescribeSubnets"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "Statement2",
+			"Effect": "Allow",
+			"Action": [
+				"s3:ListBucket",
+				"s3:GetBucketLocation"
+			],
+			"Resource": "arn:aws:s3:::kartik-admin-bucket-may2026"
+		},
+		{
+			"Sid": "Statement3",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:PutObject",
+				"s3:DeleteObject"
+			],
+			"Resource": "arn:aws:s3:::kartik-admin-bucket-may2026/*"
+		},
+		{
+			"Sid": "Statement4",
+			"Effect": "Allow",
+			"Action": [
+				"s3:ListAllMyBuckets"
+			],
+			"Resource": "*"
+		}
+	]
+}
