@@ -1,0 +1,4227 @@
+{
+  "id": "3211ca35-065f-4658-85dd-af2d9379863d",
+  "name": "EC2instance-Estimate",
+  "createdAt": "June 10, 2026 at 11:59 (UTC+5:30)",
+  "expiresAt": "July 10, 2027 at 11:59 (UTC+5:30)",
+  "rateType": "BEFORE_DISCOUNTS",
+  "rateTimestamp": "June 10, 2026 at 11:59 (UTC+5:30)",
+  "status": "VALID",
+  "totalCostHistorical": 6.729999995241218e-8,
+  "totalCostEstimated": 1.8219327024187006,
+  "currency": "USD",
+  "exportCreatedAt": "June 10, 2026 at 12:12 (UTC+5:30)",
+  "items": [
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListMRAPs",
+      "location": "us-east-1",
+      "usageId": "04c98901-5a76-4fcc-89e6-94a950b932a5",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 3
+      },
+      "costSummary": {
+        "cost": 0.000015,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListMRAPs",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 3
+        },
+        "costSummary": {
+          "cost": 0.000015000000000000002,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadObjectTagging",
+      "location": "us-east-1",
+      "usageId": "05e69264-bfb4-443a-b771-ad598bae280e",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2.142e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadObjectTagging",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 2.142e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListLensConfigurations",
+      "location": "us-east-1",
+      "usageId": "08f6aa3f-420c-4717-a7cf-eff2272da2dc",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 4
+      },
+      "costSummary": {
+        "cost": 0.00002,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListLensConfigurations",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 4
+        },
+        "costSummary": {
+          "cost": 0.00002,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "HeadObject",
+      "location": "us-east-1",
+      "usageId": "0bb35241-9dcc-4b65-8d5f-bf998cce8e4c",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 6
+      },
+      "costSummary": {
+        "cost": 0.0000024,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "HeadObject",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 6
+        },
+        "costSummary": {
+          "cost": 0.0000024,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketPolicy",
+      "location": "us-east-1",
+      "usageId": "0ec6aed9-48b5-41a3-b98b-9cc95fe9f47f",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 3
+      },
+      "costSummary": {
+        "cost": 0.0000012,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketPolicy",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 3
+        },
+        "costSummary": {
+          "cost": 0.0000012,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-In-Bytes",
+      "operation": "CreateAccessPoint",
+      "location": "us-east-1",
+      "usageId": "122eddfd-afb4-4641-925f-d5c276ed5365",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 4.703e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-In-Bytes",
+        "operation": "CreateAccessPoint",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 4.703e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Vectors-Request-Tier1",
+      "operation": "ListVectorBuckets",
+      "location": "us-east-1",
+      "usageId": "144e4ec5-a0f4-4d38-96f0-79b1f82a2e5c",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 3
+      },
+      "costSummary": {
+        "cost": 0.000165,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Vectors-Request-Tier1",
+        "operation": "ListVectorBuckets",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 3
+        },
+        "costSummary": {
+          "cost": 0.000165,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "GetLensConfiguration",
+      "location": "us-east-1",
+      "usageId": "1d3634d9-31c3-4f86-8e11-b44f0fba2bdb",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 1
+      },
+      "costSummary": {
+        "cost": 4e-7,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "GetLensConfiguration",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 1
+        },
+        "costSummary": {
+          "cost": 4e-7,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "216859bb-01dc-4e6e-9269-a704fb7b7727",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.0000912,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonRDS",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "Not Applicable",
+      "location": "us-east-1",
+      "usageId": "2393168f-e6a2-4bf5-bfdd-c579ea3d5513",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "RDS-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0001023487
+      },
+      "costSummary": {
+        "cost": 0.000009211383,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonRDS",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "Not Applicable",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0001023487
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "GetLensConfiguration",
+      "location": "us-east-1",
+      "usageId": "2de19946-5bde-44ce-a011-1a6904349eb4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2.244e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "GetLensConfiguration",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 2.244e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "awswaf",
+      "usageType": "USE1-RuleV2",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "3132b84a-af40-48e6-a358-167beb904430",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "WAF-Billing",
+      "quantity": {
+        "unit": "Month",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "awswaf",
+        "usageType": "USE1-RuleV2",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Months",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.00164555,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadAccelerate",
+      "location": "us-east-1",
+      "usageId": "316fa90a-6935-4dd9-a6b5-02c433e26f45",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 11
+      },
+      "costSummary": {
+        "cost": 0.0000044,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadAccelerate",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 11
+        },
+        "costSummary": {
+          "cost": 0.0000044,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonRDS",
+      "usageType": "InstanceUsage:db.t4g.micro",
+      "operation": "CreateDBInstance:0002",
+      "location": "us-east-1",
+      "usageId": "32e35c35-ed14-4545-a7e0-dff9e253f3d9",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "RDS-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 26.406386
+      },
+      "costSummary": {
+        "cost": 0.422502176,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonRDS",
+        "usageType": "InstanceUsage:db.t4g.micro",
+        "operation": "CreateDBInstance:0002",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 26.406386
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "DataTransfer-Regional-Bytes",
+      "operation": "PublicIP-In",
+      "location": "us-east-1",
+      "usageId": "378a79c2-3c39-414c-96dc-52569259f571",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.00019793570000000002
+      },
+      "costSummary": {
+        "cost": 0.000001979357,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "DataTransfer-Regional-Bytes",
+        "operation": "PublicIP-In",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.00019793570000000002
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "CPUCredits:t3",
+      "operation": "T3CPUCredits",
+      "location": "us-east-1",
+      "usageId": "3835d9c0-5dc3-4221-889a-74a51bd92372",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "vCPU-Hours",
+        "amount": 0.00697
+      },
+      "costSummary": {
+        "cost": 0.0003485,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "CPUCredits:t3",
+        "operation": "T3CPUCredits",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "vCPU-Hours",
+          "amount": 0.00697
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketIntelligentTiering",
+      "location": "us-east-1",
+      "usageId": "38a64dee-a839-4726-be4e-2400db666ae4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000017314
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketIntelligentTiering",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000017314
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "USE1-PublicIPv4:IdleAddress",
+      "operation": "AllocateAddressVPC",
+      "location": "us-east-1",
+      "usageId": "3ad9a65a-d606-4efa-a6f3-aa727b50e2e3",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "VPC-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 0.306115
+      },
+      "costSummary": {
+        "cost": 0.001530575,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonVPC",
+        "usageType": "USE1-PublicIPv4:IdleAddress",
+        "operation": "AllocateAddressVPC",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 0.306115
+        },
+        "costSummary": {
+          "cost": 0.001530575,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketLifecycle",
+      "location": "us-east-1",
+      "usageId": "3c79984a-277c-4c29-8235-4d8355c3e9f9",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 2
+      },
+      "costSummary": {
+        "cost": 8e-7,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketLifecycle",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 2
+        },
+        "costSummary": {
+          "cost": 8e-7,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListBucket",
+      "location": "us-east-1",
+      "usageId": "42827e27-038d-40f6-a817-3312da1daeb4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 16
+      },
+      "costSummary": {
+        "cost": 0.00008,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListBucket",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 16
+        },
+        "costSummary": {
+          "cost": 0.00008,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EBS:VolumeUsage.gp3",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "4b04dd41-44d4-4a83-b079-673c12f0c715",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "EBS:VolumeUsage.gp3",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.3098632112,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketPublicAccessBlock",
+      "location": "us-east-1",
+      "usageId": "4bb96570-b355-49a8-8b30-4576eb9cc204",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 13
+      },
+      "costSummary": {
+        "cost": 0.0000052,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketPublicAccessBlock",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 13
+        },
+        "costSummary": {
+          "cost": 0.000005199999999999999,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "awswaf",
+      "usageType": "USE1-RuleV2",
+      "operation": "RuleV2",
+      "location": "us-east-1",
+      "usageId": "4d49afa2-8cd9-4a86-ac12-72bdad05f24a",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "WAF-Billing",
+      "quantity": {
+        "unit": "Month",
+        "amount": 0.001645554
+      },
+      "costSummary": {
+        "cost": 0.001645554,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "awswaf",
+        "usageType": "USE1-RuleV2",
+        "operation": "RuleV2",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Months",
+          "amount": 0.001645554
+        },
+        "costSummary": {
+          "cost": 0.001645554,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EBS:VolumeUsage.gp3",
+      "operation": "CreateVolume-Gp3",
+      "location": "us-east-1",
+      "usageId": "4e07bc25-36ad-4a7a-b7ea-132a90b0202a",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 3.8732903212000003
+      },
+      "costSummary": {
+        "cost": 0.309863225696,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "EBS:VolumeUsage.gp3",
+        "operation": "CreateVolume-Gp3",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 3.8732903212000003
+        },
+        "costSummary": {
+          "cost": 0.309863232,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "516a93a6-aeef-45ec-ba00-2c1c493e3bf6",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.00048499999999999997,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadACL",
+      "location": "us-east-1",
+      "usageId": "54e1d006-8df2-4ca9-98d1-5a6c37b6888c",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 3
+      },
+      "costSummary": {
+        "cost": 0.0000012,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadACL",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 3
+        },
+        "costSummary": {
+          "cost": 0.0000012,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadACL",
+      "location": "us-east-1",
+      "usageId": "57ec3c3c-6345-4b11-a836-7904e8b189b2",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.000001341
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadACL",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.000001341
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "USE1-PublicIPv4:InUseAddress",
+      "operation": "RunInstances",
+      "location": "us-east-1",
+      "usageId": "58a8f063-36bc-42d5-8553-d6cb1c688d9e",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "VPC-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 15.480001
+      },
+      "costSummary": {
+        "cost": 0.077400005,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonVPC",
+        "usageType": "USE1-PublicIPv4:InUseAddress",
+        "operation": "RunInstances",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 15.480001
+        },
+        "costSummary": {
+          "cost": 0.077400005,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-In-Bytes",
+      "operation": "PutObject",
+      "location": "us-east-1",
+      "usageId": "5ca20c33-bb40-493c-bdb5-ac5bff5e7a0b",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2.561e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-In-Bytes",
+        "operation": "PutObject",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 2.561e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketReplication",
+      "location": "us-east-1",
+      "usageId": "5d40da35-2cde-4563-a5a5-bece3dd7892d",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 6
+      },
+      "costSummary": {
+        "cost": 0.0000024,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketReplication",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 6
+        },
+        "costSummary": {
+          "cost": 0.0000024,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ListAllMyBuckets",
+      "location": "us-east-1",
+      "usageId": "5dd74e5f-a264-4b9c-b8f6-0d0841e04076",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000205468
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ListAllMyBuckets",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000205468
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonRDS",
+      "usageType": "RDS:GP2-Storage",
+      "operation": "CreateDBInstance:0002",
+      "location": "us-east-1",
+      "usageId": "5f4b3897-b31c-49e3-b9ef-04c7a671b59b",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "RDS-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 0.7334182104
+      },
+      "costSummary": {
+        "cost": 0.084343094196,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonRDS",
+        "usageType": "RDS:GP2-Storage",
+        "operation": "CreateDBInstance:0002",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 0.7334182104
+        },
+        "costSummary": {
+          "cost": -5.8e-9,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "TimedStorage-ByteHrs",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "5fff262c-02af-4744-8564-45eb02438566",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "TimedStorage-ByteHrs",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -2.2e-9,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "awswaf",
+      "usageType": "USE1-RequestV2-Tier0",
+      "operation": "ALB",
+      "location": "us-east-1",
+      "usageId": "62488a70-048a-4910-8a80-ef1ec722fae6",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "WAF-Billing",
+      "quantity": {
+        "unit": "Request",
+        "amount": 23
+      },
+      "costSummary": {
+        "cost": 0.0000138,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "awswaf",
+        "usageType": "USE1-RequestV2-Tier0",
+        "operation": "ALB",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 23
+        },
+        "costSummary": {
+          "cost": 0.0000138,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "awswaf",
+      "usageType": "USE1-RequestV2-Tier0",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "656501d8-a023-418e-b7c3-f421813cd2a9",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "WAF-Billing",
+      "quantity": {
+        "unit": "Request",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "awswaf",
+        "usageType": "USE1-RequestV2-Tier0",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.0000138,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListAllMyBuckets",
+      "location": "us-east-1",
+      "usageId": "66330630-4c2b-48b2-95c8-5d0e2fb17885",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 58
+      },
+      "costSummary": {
+        "cost": 0.00029,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListAllMyBuckets",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 58
+        },
+        "costSummary": {
+          "cost": 0.00029,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadLogProps",
+      "location": "us-east-1",
+      "usageId": "6c854715-d1d5-4cfa-acf4-2e9a95ac6535",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 11
+      },
+      "costSummary": {
+        "cost": 0.0000044,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadLogProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 11
+        },
+        "costSummary": {
+          "cost": 0.0000044,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketInventory",
+      "location": "us-east-1",
+      "usageId": "6d8a36dc-7697-4867-acbc-8465aff6bebf",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 2
+      },
+      "costSummary": {
+        "cost": 8e-7,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketInventory",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 2
+        },
+        "costSummary": {
+          "cost": 8e-7,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "GetBucketMetadataConfig",
+      "location": "us-east-1",
+      "usageId": "72dbe110-7a36-4e40-ba2a-80d1a4c13097",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000026076000000000002
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "GetBucketMetadataConfig",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000026076000000000002
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadObjectTagging",
+      "location": "us-east-1",
+      "usageId": "73adba17-9df2-4199-9f27-02c64b6c9c45",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 2
+      },
+      "costSummary": {
+        "cost": 8e-7,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadObjectTagging",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 2
+        },
+        "costSummary": {
+          "cost": 8e-7,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "USE1-USW2-AWS-In-Bytes",
+      "operation": "PublicIP-In",
+      "location": "us-west-2",
+      "usageId": "74079e5a-97cb-4854-a068-386c2663394d",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 1.974e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "USE1-USW2-AWS-In-Bytes",
+        "operation": "PublicIP-In",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 1.974e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketOwnershipControls",
+      "location": "us-east-1",
+      "usageId": "7446c83b-beeb-4b6c-9e93-096fecde1621",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000032997
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketOwnershipControls",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000032997
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "TimedStorage-ByteHrs",
+      "operation": "StandardStorage",
+      "location": "us-east-1",
+      "usageId": "7937ce22-d1b5-4eac-b41e-f1b441a1491e",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 1.574e-7
+      },
+      "costSummary": {
+        "cost": 3.6202e-9,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "TimedStorage-ByteHrs",
+        "operation": "StandardStorage",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 1.574e-7
+        },
+        "costSummary": {
+          "cost": 3.3e-9,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Global-Bucket-Hrs-FreeTier",
+      "operation": "GeneralPurposeBuckets",
+      "location": "",
+      "usageId": "79502a49-772e-4f7e-a361-f093957c6781",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Bucket-Mo",
+        "amount": 0.015143369200000001
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Global-Bucket-Hrs-FreeTier",
+        "operation": "GeneralPurposeBuckets",
+        "location": "global",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Bucket-Mo",
+          "amount": 0.015143369200000001
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketAbac",
+      "location": "us-east-1",
+      "usageId": "7de16f9d-0116-48b9-a1e8-a27e00f746d6",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000010208
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketAbac",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000010208
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadAccountPublicAccessBlock",
+      "location": "us-east-1",
+      "usageId": "7dff3e31-7151-44a3-a671-24be7d67f390",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 17
+      },
+      "costSummary": {
+        "cost": 0.0000068,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadAccountPublicAccessBlock",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 17
+        },
+        "costSummary": {
+          "cost": 0.000006799999999999999,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "BoxUsage:t3.micro",
+      "operation": "RunInstances",
+      "location": "us-east-1",
+      "usageId": "7f6970fd-f58e-4835-b814-5807027d47a1",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 14.284723000000001
+      },
+      "costSummary": {
+        "cost": 0.1485611192,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "BoxUsage:t3.micro",
+        "operation": "RunInstances",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 14.284723000000001
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ListBucketTags",
+      "location": "us-east-1",
+      "usageId": "82dd3cef-9101-43d3-91cd-4d02425ff81d",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000017770999999999999
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ListBucketTags",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000017770999999999999
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListStorageLensGroups",
+      "location": "us-east-1",
+      "usageId": "8471df5e-5a2e-4648-96ea-0482515a79fd",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 3
+      },
+      "costSummary": {
+        "cost": 0.000015,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListStorageLensGroups",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 3
+        },
+        "costSummary": {
+          "cost": 0.000015000000000000002,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "GetBucketMetadataConfig",
+      "location": "us-east-1",
+      "usageId": "864981be-5b34-4b35-b084-9ad9add2e8d1",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 9
+      },
+      "costSummary": {
+        "cost": 0.0000036,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "GetBucketMetadataConfig",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 9
+        },
+        "costSummary": {
+          "cost": 0.0000036,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadRequestPaymentProps",
+      "location": "us-east-1",
+      "usageId": "8a08adbe-27b5-4247-b227-cedfe22bdeb1",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 8
+      },
+      "costSummary": {
+        "cost": 0.0000032,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadRequestPaymentProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 8
+        },
+        "costSummary": {
+          "cost": 0.0000032,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonRDS",
+      "usageType": "RDS:ChargedBackupUsage",
+      "operation": "CreateDBInstance",
+      "location": "us-east-1",
+      "usageId": "8c4c0bf3-8fc8-48b2-8320-9767db57deab",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "RDS-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 0.0167636447
+      },
+      "costSummary": {
+        "cost": 0.0015925462465,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonRDS",
+        "usageType": "RDS:ChargedBackupUsage",
+        "operation": "CreateDBInstance",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 0.0167636447
+        },
+        "costSummary": {
+          "cost": 4e-10,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Vectors-Request-Tier1",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "8e69d45b-e9ac-42db-9f9e-d317e4d9da97",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Vectors-Request-Tier1",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.000165,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketReplication",
+      "location": "us-east-1",
+      "usageId": "8fd562f2-e238-4e1e-b9e3-e2dfaf531cb7",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000020117
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketReplication",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000020117
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketObjectLockConfig",
+      "location": "us-east-1",
+      "usageId": "932bf762-501e-424d-a580-8df6a0beeae1",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 2
+      },
+      "costSummary": {
+        "cost": 8e-7,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketObjectLockConfig",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 2
+        },
+        "costSummary": {
+          "cost": 8e-7,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ListBucket",
+      "location": "us-east-1",
+      "usageId": "94d2a1b1-57cf-44ca-99f5-f0108b0d9aca",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000281109
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ListBucket",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000281109
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketPolicy",
+      "location": "us-east-1",
+      "usageId": "95e85b49-9e0f-4c84-9094-a87a5f0a25e0",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 9.126e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketPolicy",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 9.126e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketCors",
+      "location": "us-east-1",
+      "usageId": "9acf0cc5-9743-4f38-b34b-14eab7893121",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 3
+      },
+      "costSummary": {
+        "cost": 0.0000012,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketCors",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 3
+        },
+        "costSummary": {
+          "cost": 0.0000012,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketOwnershipControls",
+      "location": "us-east-1",
+      "usageId": "9b4497d5-48c4-4991-bec3-69d6d70d90d9",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 17
+      },
+      "costSummary": {
+        "cost": 0.0000068,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketOwnershipControls",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 17
+        },
+        "costSummary": {
+          "cost": 0.000006799999999999999,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadAccountPublicAccessBlock",
+      "location": "us-east-1",
+      "usageId": "9c93641a-10ac-48ad-962c-b08833a4c82f",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.000005967
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadAccountPublicAccessBlock",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.000005967
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "CreateBucket",
+      "location": "us-east-1",
+      "usageId": "9e72067a-a887-4846-b9cf-65090597c32e",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 1
+      },
+      "costSummary": {
+        "cost": 0.000005,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "CreateBucket",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 1
+        },
+        "costSummary": {
+          "cost": 0.000005,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "WriteBucketServerSideEncryption",
+      "location": "us-east-1",
+      "usageId": "a23365bf-96a3-45df-90f2-ee0209584e0a",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 1
+      },
+      "costSummary": {
+        "cost": 0.000005,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "WriteBucketServerSideEncryption",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 1
+        },
+        "costSummary": {
+          "cost": 0.000005,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketInventory",
+      "location": "us-east-1",
+      "usageId": "a2baa7ea-447e-401c-aa5e-bd9bd0cc7f9b",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 3.52e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketInventory",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 3.52e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListBucketVersions",
+      "location": "us-east-1",
+      "usageId": "a56231a2-3dcc-4472-9bb6-a2c3f1d80057",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 1
+      },
+      "costSummary": {
+        "cost": 0.000005,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListBucketVersions",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 1
+        },
+        "costSummary": {
+          "cost": 0.000005,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadLogProps",
+      "location": "us-east-1",
+      "usageId": "a5b67298-8e0a-4f66-ab1c-db2fff8a3a05",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000021534
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadLogProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000021534
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EBS:SnapshotUsage",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "a8dc5ca1-714d-4669-af88-428aa7a4a709",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "EBS:SnapshotUsage",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.013131578,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "USE1-USE2-AWS-Out-Bytes",
+      "operation": "PublicIP-Out",
+      "location": "us-east-1",
+      "usageId": "aa4150d0-9273-4f25-be6c-26ff19e294e4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000018309
+      },
+      "costSummary": {
+        "cost": 1.8309e-8,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "USE1-USE2-AWS-Out-Bytes",
+        "operation": "PublicIP-Out",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000018309
+        },
+        "costSummary": {
+          "cost": 1.83e-8,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ListBucketTags",
+      "location": "us-east-1",
+      "usageId": "b0a590d3-2a3f-4470-b646-425ab5126c8d",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 12
+      },
+      "costSummary": {
+        "cost": 0.0000048,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ListBucketTags",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 12
+        },
+        "costSummary": {
+          "cost": 0.0000048,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketCors",
+      "location": "us-east-1",
+      "usageId": "b9be515a-0a61-48b7-994d-008da0a70c91",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 9.593e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketCors",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 9.593e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-In-Bytes",
+      "operation": "WriteVersioningProps",
+      "location": "us-east-1",
+      "usageId": "ba1c1145-bec5-4c91-9c8d-a38d5933a5af",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 1.146e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-In-Bytes",
+        "operation": "WriteVersioningProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 1.146e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadNotificationProps",
+      "location": "us-east-1",
+      "usageId": "ba23243f-7e3d-424c-9532-5e5dce5eabf4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 11
+      },
+      "costSummary": {
+        "cost": 0.0000044,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadNotificationProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 11
+        },
+        "costSummary": {
+          "cost": 0.0000044,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "PutObject",
+      "location": "us-east-1",
+      "usageId": "be8aac9d-5db4-4fbc-b74a-348980a8aa61",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 5
+      },
+      "costSummary": {
+        "cost": 0.000025,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "PutObject",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 5
+        },
+        "costSummary": {
+          "cost": 0.000025,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonRDS",
+      "usageType": "DataTransfer-In-Bytes",
+      "operation": "Not Applicable",
+      "location": "us-east-1",
+      "usageId": "bf3c83a7-3f3f-481f-91a7-716e3e4db3c8",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "RDS-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0001021363
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonRDS",
+        "usageType": "DataTransfer-In-Bytes",
+        "operation": "Not Applicable",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0001021363
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketServerSideEncryption",
+      "location": "us-east-1",
+      "usageId": "bf5c98d9-49bc-4a66-b163-f932d2633ec1",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000037903
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketServerSideEncryption",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000037903
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadVersioningProps",
+      "location": "us-east-1",
+      "usageId": "c0abc4b1-05dc-4863-8e6a-02b75dccf4cd",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000056122
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadVersioningProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000056122
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketServerSideEncryption",
+      "location": "us-east-1",
+      "usageId": "c6198d33-2e5e-49bf-9b1b-a6143a13979f",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 13
+      },
+      "costSummary": {
+        "cost": 0.0000052,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketServerSideEncryption",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 13
+        },
+        "costSummary": {
+          "cost": 0.000005199999999999999,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-In-Bytes",
+      "operation": "WriteBucketServerSideEncryption",
+      "location": "us-east-1",
+      "usageId": "c71bafcc-424d-4cd8-90b6-83ddaf27f449",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2.971e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-In-Bytes",
+        "operation": "WriteBucketServerSideEncryption",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 2.971e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketLifecycle",
+      "location": "us-east-1",
+      "usageId": "c7bccd77-41e1-4237-8db2-ffb4dc9ee2d4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 5.793e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketLifecycle",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 5.793e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "USE1-PublicIPv4:IdleAddress",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "c7f902ba-a3bc-40b4-94bf-053186933fce",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "VPC-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonVPC",
+        "usageType": "USE1-PublicIPv4:IdleAddress",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.001530575,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "USE1-USE2-AWS-In-Bytes",
+      "operation": "PublicIP-In",
+      "location": "us-east-2",
+      "usageId": "c8b78bb6-6835-4b67-80f4-50ebd640458f",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000021356
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "USE1-USE2-AWS-In-Bytes",
+        "operation": "PublicIP-In",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000021356
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadRequestPaymentProps",
+      "location": "us-east-1",
+      "usageId": "c8f3684d-690d-4545-84ec-eeaa22321a26",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000012816
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadRequestPaymentProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000012816
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "CreateAccessPoint",
+      "location": "us-east-1",
+      "usageId": "c9895fac-af63-43e2-a9f4-90fa5897ba4a",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2.263e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "CreateAccessPoint",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 2.263e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketAnalytics",
+      "location": "us-east-1",
+      "usageId": "cc3c060e-a3d6-4e16-9f71-374332b2b743",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 4
+      },
+      "costSummary": {
+        "cost": 0.0000016,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketAnalytics",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 4
+        },
+        "costSummary": {
+          "cost": 0.0000016,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "awswaf",
+      "usageType": "USE1-WebACLV2",
+      "operation": "WebACLV2",
+      "location": "us-east-1",
+      "usageId": "d0707487-1434-4310-9ee3-24f37784ec29",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "WAF-Billing",
+      "quantity": {
+        "unit": "Month",
+        "amount": 0.0017183553
+      },
+      "costSummary": {
+        "cost": 0.0085917765,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "awswaf",
+        "usageType": "USE1-WebACLV2",
+        "operation": "WebACLV2",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Months",
+          "amount": 0.0017183553
+        },
+        "costSummary": {
+          "cost": 0.0085917765,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "HeadBucket",
+      "location": "us-east-1",
+      "usageId": "d2579879-6fa7-4a42-a474-3b5bdf956ab7",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 25
+      },
+      "costSummary": {
+        "cost": 0.00001,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "HeadBucket",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 25
+        },
+        "costSummary": {
+          "cost": 0.000009999999999999999,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketIntelligentTiering",
+      "location": "us-east-1",
+      "usageId": "d6d6650e-a0b1-418b-b4be-ed44abfa2fc8",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 11
+      },
+      "costSummary": {
+        "cost": 0.0000044,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketIntelligentTiering",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 11
+        },
+        "costSummary": {
+          "cost": 0.0000044,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketAnalytics",
+      "location": "us-east-1",
+      "usageId": "d7c8171e-9a5c-426d-aa5a-612ccf4f8981",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 6.072e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketAnalytics",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 6.072e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "awswaf",
+      "usageType": "USE1-WebACLV2",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "dc1820af-3dde-4867-a551-17c99e470140",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "WAF-Billing",
+      "quantity": {
+        "unit": "Month",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "awswaf",
+        "usageType": "USE1-WebACLV2",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Months",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.00859175,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "USE1-PublicIPv4:InUseAddress",
+      "operation": "AssociateAddressVPC",
+      "location": "us-east-1",
+      "usageId": "df57aca5-a03e-4a8b-ba20-3ac2ee104e52",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "VPC-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 133.256946
+      },
+      "costSummary": {
+        "cost": 0.66628473,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonVPC",
+        "usageType": "USE1-PublicIPv4:InUseAddress",
+        "operation": "AssociateAddressVPC",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 133.256946
+        },
+        "costSummary": {
+          "cost": 0.66628473,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier8",
+      "operation": "GetAG",
+      "location": "us-east-1",
+      "usageId": "e09411fa-769d-47ff-8511-41b9bddeb953",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 1
+      },
+      "costSummary": {
+        "cost": 0.00003,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier8",
+        "operation": "GetAG",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 1
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ListAccessPoints",
+      "location": "us-east-1",
+      "usageId": "e29b448e-a398-49c8-b2bd-72b590325ccf",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000040326
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ListAccessPoints",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000040326
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "DataTransfer-Regional-Bytes",
+      "operation": "PublicIP-Out",
+      "location": "us-east-1",
+      "usageId": "e564205a-7893-4662-8558-1b88486cf2d0",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0001968935
+      },
+      "costSummary": {
+        "cost": 0.000001968935,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "DataTransfer-Regional-Bytes",
+        "operation": "PublicIP-Out",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0001968935
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketPublicAccessBlock",
+      "location": "us-east-1",
+      "usageId": "e56dda2f-20ff-4ee7-be58-50f5b335a5cc",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000039468
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketPublicAccessBlock",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000039468
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "DataTransfer-In-Bytes",
+      "operation": "RunInstances",
+      "location": "us-east-1",
+      "usageId": "e75c0cf0-a38b-4744-a265-6f872097fa2b",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0035837152000000004
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "DataTransfer-In-Bytes",
+        "operation": "RunInstances",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0035837152000000004
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadVersioningProps",
+      "location": "us-east-1",
+      "usageId": "e7b346af-4e3a-4a83-a52f-dc833d6839b9",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 28
+      },
+      "costSummary": {
+        "cost": 0.0000112,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadVersioningProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 28
+        },
+        "costSummary": {
+          "cost": 0.0000112,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "BoxUsage:t3.small",
+      "operation": "RunInstances",
+      "location": "us-east-1",
+      "usageId": "e90834a0-cb53-458a-95b6-eaa5753107b2",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 0.868333
+      },
+      "costSummary": {
+        "cost": 0.0180613264,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "BoxUsage:t3.small",
+        "operation": "RunInstances",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 0.868333
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadAccelerate",
+      "location": "us-east-1",
+      "usageId": "e9659f4e-4e03-460b-babe-f827ee1ebe70",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000011576
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadAccelerate",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000011576
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadBucketObjectLockConfig",
+      "location": "us-east-1",
+      "usageId": "ec1bdb6e-c2db-4bc8-920c-c6e009e1a618",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 9.052e-7
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadBucketObjectLockConfig",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 9.052e-7
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonVPC",
+      "usageType": "USE1-PublicIPv4:InUseAddress",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "eebc9ec5-3afa-4f90-9d6d-c39c87e46e44",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "VPC-Billing",
+      "quantity": {
+        "unit": "Hrs",
+        "amount": 0
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonVPC",
+        "usageType": "USE1-PublicIPv4:InUseAddress",
+        "operation": "",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Hrs",
+          "amount": 0
+        },
+        "costSummary": {
+          "cost": -0.743684735,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ReadNotificationProps",
+      "location": "us-east-1",
+      "usageId": "f066e81b-37ed-4d4d-8db0-d74e0d80b9db",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000011781
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ReadNotificationProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000011781
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "USE1-USW2-AWS-Out-Bytes",
+      "operation": "PublicIP-Out",
+      "location": "us-east-1",
+      "usageId": "f0f5cceb-14f6-4dec-b2c4-692b6be29aa4",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 1.052e-7
+      },
+      "costSummary": {
+        "cost": 2.104e-9,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "USE1-USW2-AWS-Out-Bytes",
+        "operation": "PublicIP-Out",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 1.052e-7
+        },
+        "costSummary": {
+          "cost": 2.1e-9,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier2",
+      "operation": "ReadBucketAbac",
+      "location": "us-east-1",
+      "usageId": "f107ca97-8869-4ddf-b2fb-76cb32789ef7",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 8
+      },
+      "costSummary": {
+        "cost": 0.0000032,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier2",
+        "operation": "ReadBucketAbac",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 8
+        },
+        "costSummary": {
+          "cost": 0.0000032,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "RunInstances",
+      "location": "us-east-1",
+      "usageId": "f389b070-b566-48d6-acc7-b22eff939c63",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.008647913699999999
+      },
+      "costSummary": {
+        "cost": 0.0007783122329999999,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "RunInstances",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.008647913699999999
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonRDS",
+      "usageType": "Aurora:ServerlessV2Usage",
+      "operation": "CreateDBInstance:0021",
+      "location": "us-east-1",
+      "usageId": "f54b60c0-f656-4d4f-bcb5-4087498a9c23",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "RDS-Billing",
+      "quantity": {
+        "unit": "ACU-Hr",
+        "amount": 0.5541666667
+      },
+      "costSummary": {
+        "cost": 0.066500000004,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonRDS",
+        "usageType": "Aurora:ServerlessV2Usage",
+        "operation": "CreateDBInstance:0021",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "ACU-Hr",
+          "amount": 0.5541666667
+        },
+        "costSummary": {
+          "cost": -4e-10,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonEC2",
+      "usageType": "EBS:SnapshotUsage",
+      "operation": "CreateSnapshot",
+      "location": "us-east-1",
+      "usageId": "f75a4298-4143-41ca-97f7-baa58307ef20",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "EC2-Billing",
+      "quantity": {
+        "unit": "GB-Mo",
+        "amount": 0.2626315647
+      },
+      "costSummary": {
+        "cost": 0.013131578235,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonEC2",
+        "usageType": "EBS:SnapshotUsage",
+        "operation": "CreateSnapshot",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB-Month",
+          "amount": 0.2626315647
+        },
+        "costSummary": {
+          "cost": 0.0131315783,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "WriteVersioningProps",
+      "location": "us-east-1",
+      "usageId": "faeee66a-a20e-4dad-9607-3c7b1ab6978f",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 1
+      },
+      "costSummary": {
+        "cost": 0.000005,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "WriteVersioningProps",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 1
+        },
+        "costSummary": {
+          "cost": 0.000005,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "Requests-Tier1",
+      "operation": "ListAllMyDirectoryBuckets",
+      "location": "us-east-1",
+      "usageId": "fd740d1f-1bc4-43d3-8b6a-40d16b355f3c",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 4
+      },
+      "costSummary": {
+        "cost": 0.00002,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "Requests-Tier1",
+        "operation": "ListAllMyDirectoryBuckets",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "Requests",
+          "amount": 4
+        },
+        "costSummary": {
+          "cost": 0.00002,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "serviceCode": "AmazonS3",
+      "usageType": "DataTransfer-Out-Bytes",
+      "operation": "ListBucketVersions",
+      "location": "us-east-1",
+      "usageId": "ffa303a8-f507-4ff2-ab0f-3acbf230b77b",
+      "usageAccountId": 94337892911,
+      "accountName": "Raichu1231",
+      "group": "S3-Billing",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.0000024661
+      },
+      "costSummary": {
+        "cost": 0,
+        "currency": "USD",
+        "status": "historical"
+      },
+      "historicalUsage": {
+        "serviceCode": "AmazonS3",
+        "usageType": "DataTransfer-Out-Bytes",
+        "operation": "ListBucketVersions",
+        "location": "us-east-1",
+        "usageAccountId": 94337892911,
+        "accountName": "",
+        "billInterval": {
+          "start": "May 17, 2026",
+          "end": "May 17, 2026"
+        },
+        "quantity": {
+          "unit": "GB",
+          "amount": 0.0000024661
+        },
+        "costSummary": {
+          "cost": 0,
+          "currency": "USD"
+        }
+      }
+    }
+  ]
+}
