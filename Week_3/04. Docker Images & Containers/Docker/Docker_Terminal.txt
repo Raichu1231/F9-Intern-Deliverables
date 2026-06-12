@@ -1,0 +1,103 @@
+/Users/raichu1231/.zshrc:.:2: no such file or directory: /Users/raichu1231/.local/bin/env
+raichu1231@Kartiks-MacBook-Air 04.a Docker Images & Containers - Terminal % 
+raichu1231@Kartiks-MacBook-Air 04.a Docker Images & Containers - Terminal % 
+raichu1231@Kartiks-MacBook-Air 04.a Docker Images & Containers - Terminal % cd Frontend 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker build -t sample01 .
+[+] Building 0.1s (7/7) FINISHED                                                                       docker:desktop-linux
+ => [internal] load build definition from Dockerfile                                                                   0.0s
+ => => transferring dockerfile: 89B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/nginx:latest                                                        0.0s
+ => [internal] load .dockerignore                                                                                      0.0s
+ => => transferring context: 2B                                                                                        0.0s
+ => [internal] load build context                                                                                      0.0s
+ => => transferring context: 1.06kB                                                                                    0.0s
+ => [1/2] FROM docker.io/library/nginx:latest@sha256:1df1a963b5b8a3315c81c9d3c6fbd3324479a16c5e266bc6642c080be636145f  0.0s
+ => => resolve docker.io/library/nginx:latest@sha256:1df1a963b5b8a3315c81c9d3c6fbd3324479a16c5e266bc6642c080be636145f  0.0s
+ => CACHED [2/2] COPY static /usr/share/nginx/html                                                                     0.0s
+ => exporting to image                                                                                                 0.0s
+ => => exporting layers                                                                                                0.0s
+ => => exporting manifest sha256:601656273f597dd142ff49143dd45fbec17c544c21bfd321320eb76cc1600696                      0.0s
+ => => exporting config sha256:472674bd8b89b6f73ec65c708f5ad7650e79e1eca4254a44b41caf55a98f4afe                        0.0s
+ => => exporting attestation manifest sha256:92dbae16b3cbfc77921c3e5793711af0c4b4e63893f022833c65ba2ea6d5b926          0.0s
+ => => exporting manifest list sha256:53e861b0d988d2378c5b11be00e44547badd0962b63da664c7385b754f744e47                 0.0s
+ => => naming to docker.io/library/sample01:latest                                                                     0.0s
+ => => unpacking to docker.io/library/sample01:latest                                                                  0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/x8bpp2w5577o60gbpbzro1not
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker run --name sample01test01 -p 10:80 -d sample01
+c49bbfffa74baf53034f825e1f569bf7115501652f10b93bf7e57dccd5611e75
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker build -t sample01 .
+[+] Building 0.1s (7/7) FINISHED                                                                       docker:desktop-linux
+ => [internal] load build definition from Dockerfile                                                                   0.0s
+ => => transferring dockerfile: 89B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/nginx:latest                                                        0.0s
+ => [internal] load .dockerignore                                                                                      0.0s
+ => => transferring context: 2B                                                                                        0.0s
+ => [internal] load build context                                                                                      0.0s
+ => => transferring context: 1.06kB                                                                                    0.0s
+ => [1/2] FROM docker.io/library/nginx:latest@sha256:1df1a963b5b8a3315c81c9d3c6fbd3324479a16c5e266bc6642c080be636145f  0.0s
+ => => resolve docker.io/library/nginx:latest@sha256:1df1a963b5b8a3315c81c9d3c6fbd3324479a16c5e266bc6642c080be636145f  0.0s
+ => CACHED [2/2] COPY static /usr/share/nginx/html                                                                     0.0s
+ => exporting to image                                                                                                 0.0s
+ => => exporting layers                                                                                                0.0s
+ => => exporting manifest sha256:c709a57be0c8cb04635c183e27af4f98c3a250fde6e6bd8e5732e5fb08dcb68e                      0.0s
+ => => exporting config sha256:8ad222541fa4821a834cfc6ee982fd7769d09653f0377a7e70a06e64080ad7cf                        0.0s
+ => => exporting attestation manifest sha256:80b07dd900f9e0742bb6a9be23e556c4ec95f179f4aae6112c8c6cb0410c1c8c          0.0s
+ => => exporting manifest list sha256:78a1f980ece76769cefaf7d30615859b828fbe90b02f3a6683876a23a25ca3da                 0.0s
+ => => naming to docker.io/library/sample01:latest                                                                     0.0s
+ => => unpacking to docker.io/library/sample01:latest                                                                  0.0s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/wcv2zzp7nyt7lk10q1rbmardr
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker container run sample01test01 sample01                                     
+Unable to find image 'sample01test01:latest' locally
+docker: Error response from daemon: pull access denied for sample01test01, repository does not exist or may require 'docker login'
+
+Run 'docker run --help' for more information
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker start sample01   
+Error response from daemon: No such container: sample01
+failed to start containers: sample01
+raichu1231@Kartiks-MacBook-Air Frontend % docker ps -a
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS                    PORTS                                         NAMES
+c49bbfffa74b   53e861b0d988     "/docker-entrypoint.…"   15 minutes ago   Up 15 minutes             0.0.0.0:10->80/tcp, [::]:10->80/tcp           sample01test01
+d8e31c71ecb8   mysite-backend   "uvicorn mysite.main…"   2 hours ago      Up 2 hours                0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   test01
+5770bd178125   218b39bbb501     "/docker-entrypoint.…"   4 hours ago      Up 4 hours                0.0.0.0:100->80/tcp, [::]:100->80/tcp         sample_web
+a731fd1de8cf   nginx            "/docker-entrypoint.…"   24 hours ago     Exited (0) 22 hours ago                                                 bold_faraday
+247bfbd6c805   python:3.12      "python -c 'import o…"   24 hours ago     Exited (0) 24 hours ago                                                 nervous_shockley
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker run --name sample01test01 -p 10:80 -d sample01
+
+What's next:
+    Debug this container error with Gordon → docker ai "help me fix this container error"
+docker: Error response from daemon: Conflict. The container name "/sample01test01" is already in use by container "c49bbfffa74baf53034f825e1f569bf7115501652f10b93bf7e57dccd5611e75". You have to remove (or rename) that container to be able to reuse that name.
+
+Run 'docker run --help' for more information
+raichu1231@Kartiks-MacBook-Air Frontend %   
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker stop sample01test01
+sample01test01
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker rm sample01test01 
+sample01test01
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % docker run --name sample01test02 -p 80:80 -d sample01
+5fb83a1e9003d4de3d91ad5416d325b6e3969b03953336c5d294e9c0ebd8fb6e
+raichu1231@Kartiks-MacBook-Air Frontend % 
+raichu1231@Kartiks-MacBook-Air Frontend % 
