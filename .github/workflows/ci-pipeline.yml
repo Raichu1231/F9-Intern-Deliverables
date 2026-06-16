@@ -3,8 +3,6 @@ name: CICD - Pipeline Repository Test
 on:
     push: 
         branches: [ "main" ]
-        paths:
-          - 'Week_4/01. CICD-Pipeline/**'
 
 env: 
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -24,7 +22,7 @@ jobs:
 
       - name: Execute Code Syntax Integrity Check 
         run: | 
-          python -m py_compile Week_4/01. CICD-Pipeline/app.py
+          python -m py_compile app.py
 
   continuous-development: 
     runs-on: ubuntu-latest
@@ -40,7 +38,7 @@ jobs:
           host: ${{ secrets.EC2_PUBLIC_IP }}
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
-          source: "Week_4/01. CICD-Pipeline/app.py"
+          source: "app.py"
           target: "/home/ec2-user/backend-app/"
           strip_components: 1
 
