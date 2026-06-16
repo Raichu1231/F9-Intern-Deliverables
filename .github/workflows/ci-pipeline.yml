@@ -4,7 +4,7 @@ on:
     push: 
         branches: [ "main" ]
         paths:
-          - 'Week_4/**'
+          - 'Week_4/01. CI\CD-Pipeline/**'
 
 env: 
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -24,7 +24,7 @@ jobs:
 
       - name: Execute Code Syntax Integrity Check 
         run: | 
-          python -m py_compile Week_4/app.py
+          python -m py_compile Week_4/01. CI\CD-Pipeline/app.py
 
   continuous-development: 
     runs-on: ubuntu-latest
