@@ -1,0 +1,55 @@
+name: CICD - Pipeline Repository Test
+
+on:
+    push: 
+        branches: [ "main" ]
+        paths:
+          - 'Week_4/**'
+
+env: 
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs: 
+  continuous-integration:
+    runs-on: ubuntu-latest
+    
+    steps: 
+      - name: Fetch Codebase 
+        uses: actions/checkout@v4
+      
+      - name: Initialize Python Environment
+        uses: actions/setup-python@v5
+        with: 
+          python-version: '3.11'
+
+      - name: Execute Code Syntax Integrity Check 
+        run: | 
+          python -m py_compile Week_4/app.py
+
+  continuous-development: 
+    runs-on: ubuntu-latest
+    needs: continuous-integration 
+
+    steps: 
+      - name: Fetch Codebase
+        uses: actions/checkout@v4
+
+      - name: Deploy working to Amaon Linux 23 via SSH 
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.EC2_PUBLIC_IP }}
+          username: ec2-user
+          key: ${{ secrets.EC2_SSH_KEY }}
+          source: "app.py"
+          target: "/home/ec2-user/backend-app/"
+          strip_components: 1
+
+      - name: Restart Backend Application Services
+        uses: appleboy/ssh-action@master 
+        with: 
+          host: ${{ secrets.EC2_PUBLIC_IP }}
+          username: ec2-user 
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "Successfully connected! Restarting application... "
+            sudo systemctl restart backend-app.service
