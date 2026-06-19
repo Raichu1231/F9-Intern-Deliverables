@@ -1,4 +1,0 @@
-This contains the link which has the files and working of making a CI/CD pipeline using
-Github actions 
-
-Link: https://github.com/Raichu1231/F9-CICD-Pipeline
